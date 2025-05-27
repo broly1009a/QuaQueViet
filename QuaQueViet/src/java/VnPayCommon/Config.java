@@ -30,7 +30,7 @@ import jakarta.servlet.http.HttpServletRequest;
 public class Config {
 
     public static String vnp_PayUrl = " https://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
-    public static String vnp_ReturnUrl = "http://localhost:8080/SWP391_Spring2025_M1_BL5_Group5/VN_Pay/vnpay_return.jsp";
+    public static String vnp_ReturnUrl = "https://quaqueviet.onrender.com/SWP391_Spring2025_M1_BL5_Group5/VN_Pay/vnpay_return.jsp";
     public static String vnp_TmnCode = "BE3C6UYC";
     public static String secretKey = "FWBMOU84AKR2AB32C1S422BOHXDHATKL";
     public static String vnp_ApiUrl = "https://sandbox.vnpayment.vn/merchant_webapi/api/transaction";

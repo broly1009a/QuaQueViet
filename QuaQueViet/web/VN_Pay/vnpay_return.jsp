@@ -137,7 +137,7 @@
                             </dd>
                         </dl>
                         <div class="text-center">
-                            <a href="http://localhost:8080/SWP391_Spring2025_M1_BL5_Group5/home" class="btn btn-primary btn-home">Quay về trang chủ</a>
+                            <a href="https://quaqueviet.onrender.com/SWP391_Spring2025_M1_BL5_Group5/home" class="btn btn-primary btn-home">Quay về trang chủ</a>
                         </div>
                     </div>
                 </div>
