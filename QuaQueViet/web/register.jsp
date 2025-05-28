@@ -69,7 +69,7 @@
 
                             <div class="login_submit">
                                 <div class="g-recaptcha"
-                                     data-sitekey="6LcwI00rAAAAAAEL_1AsZDbvE-_YtaFv5gI754u-"></div>
+                                     data-sitekey="6LenPk0rAAAAAMh8b2Ek04QuwFrmo_LZLudY11PT"></div>
                                 <button type="submit" onclick="onSubmit()">Đăng Ký</button>
                             </div>
                         </form>
