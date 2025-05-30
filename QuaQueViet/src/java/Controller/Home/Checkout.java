@@ -30,6 +30,9 @@ public class Checkout extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        // Đảm bảo múi giờ VN cho mọi thao tác thời gian (fix lỗi timeout VNPAY)
+        TimeZone.setDefault(TimeZone.getTimeZone("Asia/Ho_Chi_Minh"));
+
         request.setCharacterEncoding("UTF-8");
         response.setCharacterEncoding("UTF-8");
         response.setContentType("text/html; charset=UTF-8");
@@ -59,7 +62,6 @@ public class Checkout extends HttpServlet {
                 return;
             }
 
-            // Lấy và trim đầu/cuối
             // Lấy và trim đầu/cuối cho địa chỉ
             String address = request.getParameter("address");
             address = (address != null ? address.trim() : "");
@@ -104,8 +106,6 @@ public class Checkout extends HttpServlet {
             BillRubish bill = createBillRubish(acc, cart, payment, address, phone);
 
             if ("cod".equals(payment_method)) {
-
-//                dao.addOrder(acc, cart, payment, address, phonenumber);
                 Double finalTotal = (Double) session.getAttribute("finalTotal");
                 double totalPrice = (finalTotal != null) ? finalTotal : cart.getTotalMoney();
 
@@ -118,11 +118,9 @@ public class Checkout extends HttpServlet {
             }
 
             if ("vnpay".equals(payment_method)) {
-                // ✅ Lấy finalTotal từ session nếu có mã giảm giá
+                // Lấy finalTotal từ session nếu có mã giảm giá
                 Double finalTotal = (Double) session.getAttribute("finalTotal");
                 double totalPrice = (finalTotal != null) ? finalTotal : bill.getCart().getTotalMoney();
-                // ✅ Nếu không có thì fallback về tổng tiền gốc
-                double rawTotal = (finalTotal != null) ? finalTotal : bill.getCart().getTotalMoney();
 
                 int total = (int) Math.round(totalPrice);
 
