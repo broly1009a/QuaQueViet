@@ -222,18 +222,18 @@ public class User extends HttpServlet {
             String pass = request.getParameter("user_pass");
             String repass = request.getParameter("re_pass");
             String gRecaptchaResponse = request.getParameter("g-recaptcha-response");
-            boolean verify = true;
+            boolean verify = VerifyRecaptcha.verify(gRecaptchaResponse);
             String passwordRegex = "^(?=.*[A-Z])(?=.*\\d)[A-Za-z\\d]{6,}$";
             if (!pass.matches(passwordRegex)) {
                 session.setAttribute("error_match", "Mật khẩu phải có ít nhất 6 ký tự, bao gồm ít nhất một chữ cái viết hoa và một chữ số");
                 request.getRequestDispatcher("login.jsp").forward(request, response);
                 return;
             }
-//            if (!verify) {
-//                session.setAttribute("Recaptcha", "Vui lòng xác nhận mã captcha");
-//                request.getRequestDispatcher("login.jsp").forward(request, response);
-//                return;
-//            }
+            if (!verify) {
+                session.setAttribute("Recaptcha", "Vui lòng xác nhận mã captcha");
+                request.getRequestDispatcher("login.jsp").forward(request, response);
+                return;
+            }
             if (!pass.equals(repass)) {
                 session.setAttribute("error_rePass", "Vui lòng nhập lại mật khẩu cho đúng");
                 request.getRequestDispatcher("login.jsp").forward(request, response);
