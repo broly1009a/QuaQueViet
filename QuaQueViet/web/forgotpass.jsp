@@ -39,7 +39,7 @@
                             <input name="email" type="text">
                             </p>
                             <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response">
-                            <div class="g-recaptcha" data-sitekey="6LenPk0rAAAAAMh8b2Ek04QuwFrmo_LZLudY11PT"></div>
+                            <div class="g-recaptcha" data-sitekey="6LefS_ApAAAAAG7d6P0zRbGoed8oK2dwNnez6agN"></div>
                             <div class="login_submit">
                                 <button type="submit">Đặt lại mật khẩu</button>
                             </div>
