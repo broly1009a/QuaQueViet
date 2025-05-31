@@ -44,8 +44,10 @@ public class Report extends HttpServlet {
             List<model.Report> reports = dao.getReportsByUserId(user.getUser_id());
             request.setAttribute("reports", reports);
 
-            // Load thêm danh sách bill detail
-            List<BillDetail> details = getBillDetails(user);
+            billDAO billDao = new billDAO();
+            // Load lại dữ liệu sau khi gửi
+            String billIdParam = request.getParameter("bill_id");
+            List<BillDetail> details = billDao.getDetail(Integer.parseInt(billIdParam));
             request.setAttribute("detail", details);
 
             RequestDispatcher dispatcher = request.getRequestDispatcher("billdetail.jsp");
@@ -67,9 +69,11 @@ public class Report extends HttpServlet {
             }
         } 
 
-        // Load lại dữ liệu sau khi gửi
-        List<BillDetail> details = getBillDetails(user);
-        request.setAttribute("detail", details);
+       billDAO billDao = new billDAO();
+            // Load lại dữ liệu sau khi gửi
+            String billIdParam = request.getParameter("bill_id");
+            List<BillDetail> details = billDao.getDetail(Integer.parseInt(billIdParam));
+            request.setAttribute("detail", details);
 
         List<model.Report> reports = dao.getReportsByUserId(user.getUser_id());
         request.setAttribute("reports", reports);

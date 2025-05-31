@@ -71,8 +71,8 @@
                                     <tbody>
                                         <c:forEach items="${detail}" var="d">
                                             <tr>
-                                                <td><a href="product?action=productdetail&product_id=${d.product.product_id}"><img src="${d.product.img}" alt="" style="width: 60px;"></a></td>
-                                                <td><a href="product?action=productdetail&product_id=${d.product.product_id}">${d.product.product_name}</a></td>
+                                                <td><a href="search?action=productdetail&product_id=${d.product.product_id}"><img src="${d.product.img}" alt="" style="width: 60px;"></a></td>
+                                                <td><a href="search?action=productdetail&product_id=${d.product.product_id}">${d.product.product_name}</a></td>
 <!--                                                <td>${d.size}</td>
                                                 <td>${d.color}</td>-->
                                                 <td>${d.quantity}</td>
