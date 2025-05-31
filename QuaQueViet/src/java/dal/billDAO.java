@@ -54,8 +54,10 @@ public class billDAO extends DBContext {
                     ps.setInt(1, bill_id);
                     ps.setString(2, i.getProduct().getProduct_id());
                     ps.setInt(3, i.getQuantity());
-                    ps.setString(4, i.getSize());
-                    ps.setString(5, i.getColor());
+                    String size = (i.getSize() == null || i.getSize().trim().isEmpty()) ? "N/A" : i.getSize();
+                    String color = (i.getColor() == null || i.getColor().trim().isEmpty()) ? "N/A" : i.getColor();
+                    ps.setString(4, size);
+                    ps.setString(5, color);
                     ps.setDouble(6, total);
                     ps.executeUpdate();
                 }
@@ -274,4 +276,36 @@ public class billDAO extends DBContext {
         }
         return lastId;
     }
+
+    public static void main(String[] args) {
+        billDAO dao = new billDAO();
+
+        // Tạo user test (giả sử user_id = 1)
+        User user = new User();
+        user.setUser_id(5);
+
+        // Tạo sản phẩm test
+        Product product = new Product();
+        product.setProduct_id("AT536");
+        product.setProduct_name("Sản phẩm test");
+        float price = 100000;
+        product.setProduct_price(price);
+
+        // Tạo item test
+        Item item = new Item();
+        item.setProduct(product);
+        item.setQuantity(2);
+        item.setSize("L");
+        item.setColor("Red");
+
+        // Tạo cart và thêm item
+        Cart cart = new Cart();
+        cart.addItem(item);
+
+        // Gọi hàm addOrder
+        dao.addOrder(user, cart, "COD", "Hà Nội", 1234567890, 200000);
+
+        System.out.println("Đã thêm đơn hàng test!");
+    }
+// ...existing co
 }
