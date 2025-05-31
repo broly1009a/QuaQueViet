@@ -306,7 +306,7 @@
                                                                               minFractionDigits="0" maxFractionDigits="0"/> VND
                                                         </td>
                                                         <td>
-                                                            <a href="report?action=viewReport" class="view">view</a>
+                                                             <a href="report?action=viewReport&bill_id=${b.bill_id}" class="view">Xem</a>
                                                         </td>
                                                     </tr>
                                                 </c:forEach>
