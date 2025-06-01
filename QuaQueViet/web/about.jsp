@@ -7,8 +7,8 @@
         <!-- Meta Tags -->
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Giới Thiệu | You&Me</title>
-        <meta name="description" content="Giới thiệu về You&Me Shop - Thương hiệu thời trang Việt Nam với sản phẩm chất lượng cao và thiết kế độc đáo.">
+        <title>Giới Thiệu | Quà Quê Việt</title>
+        <meta name="description" content="Giới thiệu về Quà Quê Việt - Thương hiệu thời trang Việt Nam với sản phẩm chất lượng cao và thiết kế độc đáo.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Favicon -->
         <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
@@ -50,7 +50,7 @@
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="about_thumb">
-                            <img src=${c.img} alt="Hình ảnh về You&Me Shop">
+                            <img src=${c.img} alt="Hình ảnh về Quà Quê Việt">
                         </div>
                     </div>
                 </div>

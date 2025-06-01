@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Trang Chủ  |  You&Me</title>
+        <title>Trang Chủ  |  Quà Quê Việt</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Favicon -->
@@ -189,7 +189,7 @@
 
         <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
     <df-messenger
-        chat-title="You&Me"
+        chat-title="Quà Quê Việt"
         agent-id="f1c1287e-819c-444f-8895-a49aaff26e74"
         language-code="vi"
         ></df-messenger>

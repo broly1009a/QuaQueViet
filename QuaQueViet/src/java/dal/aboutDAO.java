@@ -87,6 +87,6 @@ public class aboutDAO extends DBContext {
     public static void main(String[] args) {
         aboutDAO dao = new aboutDAO();
         System.out.println(dao.getAbout().get(0).getAboutId());
-       dao.UpdateAbout(new About("5", "Chào Mừng Đến Với You&Me Shop", "Chúng tôi tự hào là một phần của sự phát triển của ngành công nghiệp thời trang nước nhà và cam kết đem đến cho bạn những sản phẩm đẹp, chất lượng và độc đáo.", "anh25"));
+       dao.UpdateAbout(new About("5", "Chào Mừng Đến Với Quà Quê Việt Shop", "Chúng tôi tự hào là một phần của sự phát triển của ngành công nghiệp thời trang nước nhà và cam kết đem đến cho bạn những sản phẩm đẹp, chất lượng và độc đáo.", "anh25"));
     }
 }
