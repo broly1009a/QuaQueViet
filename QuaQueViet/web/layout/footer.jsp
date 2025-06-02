@@ -92,7 +92,7 @@
                     <div class="col-md-3 mb-4">
                         <h5 class="text-uppercase mb-4">Kết nối với Quà Quê Việt</h5>
                         <div class="d-flex flex-wrap">
-                            <a href="https://www.facebook.com/quaqueviet" class="btn btn-outline-light me-2 mb-2"
+                            <a href="https://www.facebook.com/share/16rvP7Ge2w/?mibextid=wwXIfr" class="btn btn-outline-light me-2 mb-2"
                                 target="_blank" rel="nofollow noopener">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
@@ -100,7 +100,7 @@
                                 target="_blank" rel="nofollow noopener">
                                 <i class="fab fa-instagram"></i>
                             </a>
-                            <a href="https://zalo.me/quaqueviet" class="btn btn-outline-light me-2 mb-2" target="_blank"
+                            <a href="https://zalo.me/0962525995" class="btn btn-outline-light me-2 mb-2" target="_blank"
                                 rel="nofollow noopener">
                                 Zalo
                             </a>
