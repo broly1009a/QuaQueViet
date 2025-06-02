@@ -725,8 +725,10 @@
                                 <div class="product-header">
                                     <h1 class="product-title">${ProductData.product_name}</h1>
                                     <div class="price-badge">
-                                        <span class="price">${ProductData.product_price} VNĐ</span>
-                                    </div>
+    <span class="price">
+        <fmt:formatNumber value="${ProductData.product_price}" type="number" groupingUsed="true" minFractionDigits="0" maxFractionDigits="0"/> VNĐ
+    </span>
+</div>
                                 </div>
 
                                 <!-- Rating -->
@@ -913,7 +915,9 @@
                                         </div>
                                         <div class="product_content">
                                             <h3><a href="product?action=productdetail&product_id=${pc.product_id}">${pc.product_name}</a></h3>
-                                            <span class="current_price">${pc.product_price} VNĐ</span>
+                                            <span class="current_price">
+    <fmt:formatNumber value="${pc.product_price}" type="number" groupingUsed="true" minFractionDigits="0" maxFractionDigits="0"/> VNĐ
+</span>
                                         </div>
                                     </div>
                                 </div>
