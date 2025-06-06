@@ -10,7 +10,9 @@ public class DBContext {
                 + ";databaseName=" + dbName
                 + ";encrypt=true;trustServerCertificate=true;";
         Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-        return DriverManager.getConnection(url, userID, password);
+        Connection conn = DriverManager.getConnection(url, userID, password);
+    System.out.println("Kết nối thành công tới database!");
+    return conn;
     }
 
     private final String serverName = "mssql-198006-0.cloudclusters.net";
