@@ -4,20 +4,31 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class DBContext {
+
     public Connection getConnection() throws Exception {
-        String url = "jdbc:sqlserver://master.database.windows.net:1433;database=ShopYouAndMeVersionFinal2;user=hiepdevs@master;password=Taovipko0@;encrypt=true;trustServerCertificate=true;hostNameInCertificate=*.database.windows.net;loginTimeout=30;";
+        String url = "jdbc:sqlserver://" + serverName + ":" + portNumber
+                + ";databaseName=" + dbName
+                + ";encrypt=true;trustServerCertificate=true;";
         Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-        return DriverManager.getConnection(url);
+        return DriverManager.getConnection(url, userID, password);
     }
+
+    private final String serverName = "mssql-198006-0.cloudclusters.net";
+    private final String dbName = "ShopYouAndMeVersionFinal2";
+    private final String portNumber = "10008";
+    private final String instance = ""; // để trống
+    private final String userID = "hiepdevs";
+    private final String password = "Taovipko0@";
 }
 
 class Using {
+
     public static void main(String[] args) {
         try {
             new DBContext().getConnection();
-            System.out.println("Kết nối thành công");
+            System.out.println("Ket noi thanh cong");
         } catch (Exception e) {
-            System.out.println("Kết nối thất bại: " + e.getMessage());
+            System.out.println("Ket noi that bai" + e.getMessage());
         }
     }
 }
