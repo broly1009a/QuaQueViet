@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /WEB-INF/
+Allow: /
+
+Sitemap: https://quaqueviet.site/sitemap.xml
