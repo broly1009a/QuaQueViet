@@ -196,7 +196,7 @@
         <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
     <df-messenger
         chat-title="Quà Quê Việt"
-        agent-id="f1c1287e-819c-444f-8895-a49aaff26e74"
+        agent-id="228665de-d787-4531-bcf1-77f4619e11a2"
         language-code="vi"
         ></df-messenger>
 
