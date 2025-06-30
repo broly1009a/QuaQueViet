@@ -1,81 +1,507 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <!-- Trang chủ -->
-    <url>
-        <loc>https://quaqueviet.site/</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <!-- Trang sản phẩm -->
-    <url>
-        <loc>https://quaqueviet.site/product</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <!-- Trang danh mục sản phẩm -->
-    <url>
-        <loc>https://quaqueviet.site/shop_category.jsp</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <!-- Trang chi tiết sản phẩm (ví dụ, cần sinh động từ DB, ở đây là mẫu) -->
-    <url>
-        <loc>https://quaqueviet.site/product-details.jsp?product_id=1</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <!-- Trang giới thiệu -->
-    <url>
-        <loc>https://quaqueviet.site/about</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <!-- Trang liên hệ -->
-    <url>
-        <loc>https://quaqueviet.site/contact</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <!-- Trang đăng nhập -->
-    <url>
-        <loc>https://quaqueviet.site/login.jsp</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <!-- Trang đăng ký -->
-    <url>
-        <loc>https://quaqueviet.site/register.jsp</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <!-- Trang giỏ hàng -->
-    <url>
-        <loc>https://quaqueviet.site/cart.jsp</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <!-- Trang thanh toán -->
-    <url>
-        <loc>https://quaqueviet.site/checkout.jsp</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <!-- Trang tài khoản -->
-    <url>
-        <loc>https://quaqueviet.site/my-account.jsp</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <!-- Trang quên mật khẩu -->
-    <url>
-        <loc>https://quaqueviet.site/forgotpass.jsp</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.4</priority>
-    </url>
-    <!-- Trang 404 -->
-    <url>
-        <loc>https://quaqueviet.site/404.jsp</loc>
-        <changefreq>yearly</changefreq>
-        <priority>0.1</priority>
-    </url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://quaqueviet.site/</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/user?action=login</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/cart?action=showcart</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/home</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/contact</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/register.jsp</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=productdetail&amp;product_id=H22</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=productdetail&amp;product_id=Combo6</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=productdetail&amp;product_id=H16</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=productdetail&amp;product_id=H8</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=productdetail&amp;product_id=Combo2</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=productdetail&amp;product_id=Combo5</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=productdetail&amp;product_id=Combo8</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=productdetail&amp;product_id=AT536</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=productdetail&amp;product_id=H13</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=productdetail&amp;product_id=Combo3</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=productdetail&amp;product_id=H19</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=productdetail&amp;product_id=AS8001</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=productdetail&amp;product_id=H6</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=productdetail&amp;product_id=H3</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=productdetail&amp;product_id=H7</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/about.jsp</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/shop_category.jsp</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/contact.jsp</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/forgotpass.jsp</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=productdetail&amp;product_id=H20</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=productdetail&amp;product_id=H1007</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=productdetail&amp;product_id=H4</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=productdetail&amp;product_id=H2</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=productdetail&amp;product_id=Combo9</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=listByCategory&amp;category_id=1</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=listByCategory&amp;category_id=2</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=listByCategory&amp;category_id=3</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=listByCategory&amp;category_id=4</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=listByCategory&amp;category_id=5</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=listByCategory&amp;category_id=6</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=listByCategory&amp;category_id=19</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=sort&amp;type=low</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=sort&amp;type=high</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=sort&amp;type=a-z</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=productdetail&amp;product_id=AT533</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=productdetail&amp;product_id=Combo1</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=productdetail&amp;product_id=Combo4</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?page=1</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?page=2</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?page=3</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?page=4</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/login.jsp</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?action=productdetail&amp;product_id=H22</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?action=productdetail&amp;product_id=Combo1</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?action=productdetail&amp;product_id=Combo2</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?action=productdetail&amp;product_id=Combo3</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?action=productdetail&amp;product_id=Combo4</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?action=productdetail&amp;product_id=Combo5</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?action=productdetail&amp;product_id=Combo6</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?action=productdetail&amp;product_id=Combo7</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?action=productdetail&amp;product_id=Combo8</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?action=productdetail&amp;product_id=Combo9</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?action=productdetail&amp;product_id=H15</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?action=productdetail&amp;product_id=H16</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?action=productdetail&amp;product_id=H1</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?action=productdetail&amp;product_id=H13</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?action=productdetail&amp;product_id=H19</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?action=productdetail&amp;product_id=H2</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?action=productdetail&amp;product_id=H20</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?action=productdetail&amp;product_id=H3</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?action=productdetail&amp;product_id=H4</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?action=productdetail&amp;product_id=H7</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?action=productdetail&amp;product_id=H8</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?action=productdetail&amp;product_id=H9</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?action=productdetail&amp;product_id=AS8001</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?action=productdetail&amp;product_id=AT533</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?action=productdetail&amp;product_id=AT536</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?action=productdetail&amp;product_id=H5</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?action=productdetail&amp;product_id=H6</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?action=productdetail&amp;product_id=H1007</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?action=productdetail&amp;product_id=H12</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?action=productdetail&amp;product_id=H17</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/product?action=productdetail&amp;product_id=H18</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=listByCategory&amp;category_id=1&amp;page=1</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=productdetail&amp;product_id=H1</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=listByCategory&amp;category_id=2&amp;page=1</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=listByCategory&amp;category_id=2&amp;page=2</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=productdetail&amp;product_id=H12</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=productdetail&amp;product_id=H17</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=productdetail&amp;product_id=H18</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=listByCategory&amp;category_id=3&amp;page=1</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=productdetail&amp;product_id=H5</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=listByCategory&amp;category_id=4&amp;page=1</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=productdetail&amp;product_id=H15</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=listByCategory&amp;category_id=5&amp;page=1</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=listByCategory&amp;category_id=6&amp;page=1</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=productdetail&amp;product_id=Combo7</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=listByCategory&amp;category_id=19&amp;page=1</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=listByCategory&amp;category_id=19&amp;page=2</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=listByCategory&amp;category_id=19&amp;page=3</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=listByCategory&amp;category_id=19&amp;page=4</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://quaqueviet.site/search?action=productdetail&amp;product_id=H9</loc>
+  <lastmod>2025-06-30T17:26:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
 </urlset>
