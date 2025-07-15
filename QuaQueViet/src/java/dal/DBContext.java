@@ -15,12 +15,12 @@ public class DBContext {
     return conn;
     }
 
-    private final String serverName = "hidevsp.database.windows.net";
+    private final String serverName = "mssql-199290-0.cloudclusters.net";
     private final String dbName = "ShopYouAndMeVersionFinal2";
-    private final String portNumber = "1433";
+    private final String portNumber = "19575";
     private final String instance = ""; // để trống
     private final String userID = "hiepdevs";
-    private final String password = "Vipko0@1";
+    private final String password = "Taovipko0@";
 }
 
 class Using {
