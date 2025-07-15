@@ -15,9 +15,9 @@ public class DBContext {
     return conn;
     }
 
-    private final String serverName = "mssql-199290-0.cloudclusters.net";
+    private final String serverName = "mssql-199667-0.cloudclusters.net";
     private final String dbName = "ShopYouAndMeVersionFinal2";
-    private final String portNumber = "19575";
+    private final String portNumber = "10004";
     private final String instance = ""; // để trống
     private final String userID = "hiepdevs";
     private final String password = "Taovipko0@";
